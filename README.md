@@ -221,4 +221,65 @@ This section outlines the main entities (tables) in the project’s database, th
      Provides administrators with tools to monitor, manage, and maintain the system. It includes access to user accounts, property listings, bookings, and payments, allowing admins to ensure the platform operates smoothly and        securely.
 
 
-     
+
+
+
+# API Security Overview
+  This section outlines the main security measures implemented to protect the system’s backend APIs, user data, and financial transactions. Ensuring robust API security is essential to maintaining user trust and safeguarding      sensitive information.
+
+      🔑 Authentication
+      Description:
+      Implements secure user authentication using industry-standard methods such as JWT (JSON Web Tokens) or OAuth 2.0.
+      
+      Importance:
+      Ensures that only verified users can access protected endpoints, preventing unauthorized access to private data and system functions.
+      
+
+      🧩 Authorization
+      Description:
+      Uses role-based access control (RBAC) to determine what actions each user type (e.g., admin, host, guest) can perform.
+      
+      Importance:
+      Protects against privilege escalation by ensuring users can only perform actions permitted for their role (e.g., guests cannot delete properties, admins can manage all records).
+
+
+      🧱 Data Encryption
+      Description:
+      Encrypts sensitive data both in transit (via HTTPS/SSL) and at rest (using database encryption or hashing).
+      
+      Importance:
+      Prevents data breaches and exposure of private information such as user credentials, payment details, and personal profiles.
+
+
+      🚦 Rate Limiting & Throttling
+      Description:
+      Restricts the number of requests a user or IP address can make within a specific time period.
+      
+      Importance:
+      Protects against denial-of-service (DoS) attacks and abuse of API endpoints by preventing excessive or automated requests.
+
+
+      🧼 Input Validation & Sanitization
+      Description:
+      Validates all incoming data to prevent injection attacks, cross-site scripting (XSS), and other vulnerabilities.
+      
+      Importance:
+      Ensures that malicious data cannot be used to manipulate or compromise the application, maintaining data integrity.
+
+      🧠 Logging & Monitoring
+      Description:
+      Implements activity logging and continuous monitoring for suspicious or unauthorized activities.
+      
+      Importance:
+      Helps quickly detect, investigate, and respond to security threats or breaches before they escalate.
+
+
+      💳 Secure Payment Handling
+      Description:
+      Integrates trusted third-party payment gateways (e.g., Stripe, PayPal) that comply with PCI DSS standards.
+      
+      Importance:
+      Ensures all financial transactions are encrypted and processed securely, protecting users from fraud or financial data exposure.
+                        
+      
+           
