@@ -280,6 +280,32 @@ This section outlines the main entities (tables) in the project’s database, th
       
       Importance:
       Ensures all financial transactions are encrypted and processed securely, protecting users from fraud or financial data exposure.
-                        
-      
-           
+
+
+
+
+
+
+# CI/CD Pipeline
+  Continuous Integration (CI) and Continuous Deployment (CD) are automated processes that streamline software development by enabling faster, more reliable updates and deployments.
+
+  
+  What is CI/CD?
+  Continuous Integration (CI): Automatically tests and integrates new code changes into the main branch. This helps detect bugs early and ensures the codebase remains stable.
+  Continuous Deployment (CD): Automates the delivery of tested code to production or staging environments, ensuring quick and consistent releases without manual intervention.
+  Together, these pipelines help maintain high-quality software, reduce human error, and accelerate the release cycle.
+
+  Importance for the Project
+  ~ Improved Code Quality: Automated testing ensures every change is validated before merging.
+  ~ Faster Releases: Deployment automation allows new features and fixes to reach users more quickly.
+  ~ Early Bug Detection: Continuous integration helps catch errors immediately after code is pushed.
+  ~ Team Collaboration: Enables multiple developers to contribute simultaneously without integration conflicts.
+  ~ Reliable Deployment: Reduces manual steps, minimizing risks during production updates.
+        
+  Tools Used
+  ~ GitHub Actions: Automates build, test, and deployment workflows directly from the repository.
+  ~ Docker: Provides consistent environments by containerizing applications for testing and deployment.
+  ~ AWS / Heroku: Used for hosting and deploying production-ready applications.
+  ~ PyTest / Jest: Ensures automated testing is executed as part of the CI process before deployment.
+
+  
