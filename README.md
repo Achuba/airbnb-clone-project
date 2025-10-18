@@ -177,10 +177,48 @@ This section outlines the main entities (tables) in the project’s database, th
    Key Fields:
     id – Unique payment identifier
     booking_id – Foreign key linking to the booking
-    amount – Total amount paid
+    amount – Total amount paidReview & Rating System
+
     payment_method – e.g., Credit Card, PayPal, etc.
     payment_status – e.g., Pending, Completed, Failed
    
   Relationships:
     A payment belongs to one booking.
     Each booking has one payment record.
+
+
+
+
+
+
+# Feature Breakdown
+  This section describes the main features included in the project and explains how each contributes to the system’s functionality and user experience.
+
+  1. User Management
+     Allows users to register, log in, and manage their profiles.
+     This feature ensures that both hosts and guests can securely access the platform, update personal details, and maintain account preferences.
+     It also handles authentication and role-based access control.
+
+  2. Booking System
+     Allows guests to view property availability and make reservations.It manages booking requests, start and end dates, and prevents scheduling conflicts.
+     The system also integrates with payments to confirm reservations upon successful transactions.
+
+  3. Property Management
+     Enables hosts to create, update, and manage property listings. Hosts can add property details such as title, description, location, price per night, and photos.
+     This feature ensures accurate and appealing listings for guests browsing available accommodations.
+
+  4. Payment Processing
+     Handles all financial transactions related to bookings.This feature securely processes payments through supported methods (e.g., credit card, PayPal) and ensures that both hosts and guests receive confirmations.
+     It tracks payment status and supports refunds or cancellations when necessary.
+
+  5. Review & Rating System
+     Enables guests to leave feedback about their stays and rate properties.This promotes trust and transparency between users, helping future guests make informed booking decisions while encouraging hosts to maintain high-          quality standards.
+     
+  6. Search and Filtering
+     Allows users to search for properties using filters such as location, price range, amenities, and dates.This feature improves usability by helping users quickly find accommodations that meet their needs, ensuring an             efficient and personalized experience.
+
+  7. Admin Dashboard
+     Provides administrators with tools to monitor, manage, and maintain the system. It includes access to user accounts, property listings, bookings, and payments, allowing admins to ensure the platform operates smoothly and        securely.
+
+
+     
