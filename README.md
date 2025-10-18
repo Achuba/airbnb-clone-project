@@ -60,3 +60,44 @@ Airbnb clone Project
   Monitor for threats and manage incident response.
   Ensure compliance with security standards.
       
+
+
+
+# Technology Stack
+Below is a list of the core technologies used in this project, along with their purpose and role in the development process.
+
+  # Django
+  A high-level Python web framework used for building robust and secure web applications quickly.
+  Purpose in the project: Handles the backend logic, routes, and RESTful API endpoints, and manages interactions between the server, database, and client.
+
+  # PostgreSQL
+  An advanced open-source relational database management system.
+  Purpose in the project: Stores and manages structured data efficiently. It ensures data consistency, supports complex queries, and integrates seamlessly with Django’s ORM (Object-Relational Mapper).
+
+  # GraphQL
+  A query language and runtime for APIs.
+  Purpose in the project: Provides a flexible and efficient way for clients to request only the data they need, reducing over-fetching and improving API performance.
+  
+  # Docker
+  A containerization platform used to package applications and dependencies together.
+  Purpose in the project: Simplifies deployment by ensuring consistent environments across development, testing, and production.
+
+  # AWS (Amazon Web Services)
+  A cloud computing platform offering infrastructure and hosting services.
+  Purpose in the project: Hosts the application and manages scalability, storage, and load balancing in the production environment.
+
+  # PyTest
+  A testing framework for Python applications.
+  Purpose in the project: Automates unit and integration testing to ensure the reliability and correctness of the application’s features.
+
+  # Nginx
+  A high-performance web server and reverse proxy.
+  Purpose in the project: Handles incoming client requests, serves static files, and forwards requests to the Django application server.
+  
+  # React
+  A JavaScript library for building user interfaces.
+  Purpose in the project: Powers the frontend of the application, managing the client-side rendering and providing a dynamic, responsive user experience.
+
+  # Git & GitHub
+  A version control system and collaborative platform for code hosting.
+  Purpose in the project: Tracks changes to the codebase, enables collaboration among developers, and facilitates code reviews and CI/CD integration.
